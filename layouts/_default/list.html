@@ -1,0 +1,30 @@
+{{ define "main" }}
+
+<main>
+
+    <section>
+        <div>
+            <h1>
+                {{ .Title }}
+            </h1>
+            <p>
+                {{ .Content }}
+            </p>
+        </div>
+        {{ range .Pages.ByWeight }}
+        <div>
+            <h2>
+                {{ .Title }}
+            </h2>
+            <p>
+                {{ .Content | truncate 100}}
+            </p>
+        </div>
+        {{ end }}
+    </section>
+
+
+</main>
+
+{{ end }}
+
