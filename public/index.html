@@ -1,0 +1,39 @@
+{{ define "main" }}
+
+    <section class="bg-gradient-to-r from-[#1b18a1] to-[#0090e4]">
+    
+
+    </section>
+
+
+
+    {{ with .Site.GetPage "/home/about.md" }}
+        <h2>
+            {{ .Title }}
+        </h2>
+        <div>
+            {{ .Content }}
+        </div>
+    {{ end }}
+
+
+    <hr>
+
+
+    {{ with .Site.GetPage "/home/services/" }}
+
+        <h2>{{ .Title }}</h2>
+
+        {{ range .Pages }}
+            <div>
+                <b>
+                    {{ .Title }}
+                </b>
+                {{ .Content }}
+            </div>
+        {{ end }}
+    {{ end }}
+
+
+
+{{ end }}
