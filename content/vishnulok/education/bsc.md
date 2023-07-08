@@ -1,6 +1,6 @@
 ---
 title: "Bsc"
 date: 2023-06-11T01:33:40+05:30
-draft: true
+
 ---
 

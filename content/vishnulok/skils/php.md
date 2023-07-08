@@ -1,6 +1,6 @@
 ---
 title: "Php"
 date: 2023-06-11T01:30:19+05:30
-draft: true
+
 ---
 

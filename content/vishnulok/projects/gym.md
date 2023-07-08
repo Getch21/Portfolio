@@ -1,6 +1,6 @@
 ---
 title: "Gym"
 date: 2023-06-11T01:34:45+05:30
-draft: true
+
 ---
 

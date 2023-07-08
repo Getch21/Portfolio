@@ -1,6 +1,6 @@
 ---
 title: "Git"
 date: 2023-06-11T01:31:20+05:30
-draft: true
+
 ---
 
